@@ -6,3 +6,7 @@
 
 // let h1 = document.getElementById("heading");
 // console.log(h1);
+
+let para = document.getElementById("para");
+
+para.innerText = "welcome to javascript";
