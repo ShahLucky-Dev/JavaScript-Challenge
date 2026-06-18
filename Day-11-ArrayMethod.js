@@ -49,6 +49,17 @@ num.forEach((item) => {
   console.log(item);
 });
 
+// find karta hai
 let findi = num.find((item) => {
   return item > 12;
 });
+
+let friends = ["ratan", "shivlal", "lucky"]; // array me value hai ya nahi (true|false)
+
+let tf = friends.includes("ratan");
+
+console.log(tf);
+
+arr.slice(1, 4); //slice example
+
+arr.splice(start, deleteCount, newValue); // splice example
