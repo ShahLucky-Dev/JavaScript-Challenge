@@ -14,3 +14,36 @@ document.getElementsByTagName("span").backgroundColor = "yellow";
 document.querySelectorAll(".box").forEach((e) => {
   e.style.backgroundColor = "aqua";
 });
+
+// let head = document.getElementById("head");
+// let btn = document.getElementById("btn");
+
+// btn.addEventListener("click", () => {
+//   head.style.backgroundColor = "red";
+// });
+
+// let btn = document.getElementById("btn"); // counter
+// let head = document.getElementById("head");
+
+// let count = 0;
+
+// btn.addEventListener("click", () => {
+//   count++;
+//   head.innerText = count;
+// });
+
+let head = document.getElementById("head");
+let plus = document.getElementById("plus");
+let minus = document.getElementById("minus");
+
+let count = 0;
+
+plus.addEventListener("click", () => {
+  count++;
+  head.innerText = count;
+});
+
+minus.addEventListener("click", () => {
+  count--;
+  head.innerText = count;
+});
