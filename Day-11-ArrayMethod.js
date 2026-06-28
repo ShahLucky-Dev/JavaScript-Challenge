@@ -66,4 +66,4 @@ arr.splice(start, deleteCount, newValue); // splice example
 
 //branch practice
 
-let name = "lucky main";
+let name = "lucky feature";
