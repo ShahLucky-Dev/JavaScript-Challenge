@@ -65,3 +65,5 @@ arr.slice(1, 4); //slice example
 arr.splice(start, deleteCount, newValue); // splice example
 
 //branch practice
+
+let name = "lucky feature";
